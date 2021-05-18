@@ -117,6 +117,7 @@ var Connect=function(){
 		};
 	};
 };
+//取消连接，回收资源
 var Disconnect=function(){
 	var stream=Recorder.Stream;
 	if(stream._m){
